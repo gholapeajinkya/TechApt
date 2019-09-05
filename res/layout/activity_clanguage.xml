@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="5dp"
+    tools:context=".CLanguageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:id="@+id/que_count_clang"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Question No"
+                />
+
+            <EditText
+                android:id="@+id/question_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:inputType="number" />
+        </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:enabled="false"
+        android:layout_height="wrap_content"
+        android:id="@+id/question"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option A"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="140dp"
+            android:text="Option B" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/op_A"
+            android:layout_width="192dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/op_B"
+            android:layout_width="192dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option C"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_height="wrap_content"
+            android:text="Option D"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:layout_weight="1"
+            android:id="@+id/op_C"/>
+        <EditText
+            android:layout_width="192dp"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/op_D"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Answer"
+            />
+
+        <EditText
+            android:id="@+id/answer"
+            android:layout_width="333dp"
+            android:enabled="false"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/layout">
+    <Button
+        android:id="@+id/insert_que"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/buttonborder"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Insert New Question" />
+        </LinearLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/pre"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:background="@drawable/ic_navigate_before_black_24dp" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/ic_navigate_next_black_24dp" />
+    </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="250dp"
+    android:layout_height="350dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:accessibilityPaneTitle="pop up"
+    android:background="@drawable/popupborder"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="15dp"
+    tools:context=".Pop_up">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/header"
+        android:id="@+id/popupheader"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/user30" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/somthing"
+        android:id="@+id/editpopuplayout">
+
+        <!--<EditText
+            android:id="@+id/popupedit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/popupheader"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="91dp"
+            android:hint="Enter name" />
+            -->
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="12dp"
+        android:text="Profile"
+        android:id="@+id/somthing"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/footer" />
+
+    <Button
+        android:id="@+id/okbtn"
+        android:layout_width="125.2dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/leftbutton"
+        android:text="OK"
+        android:textColor="@color/white"
+        android:onClick="okClicked"
+        />
+
+    <Button
+        android:id="@+id/cancelbtn"
+        android:layout_width="125.2dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/rightbutton"
+        android:text="CANCEL"
+        android:textColor="@color/white"
+        android:onClick="cancelClicked"/>
+
+
+</RelativeLayout>

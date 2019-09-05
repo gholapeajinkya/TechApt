@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:onClick="searchSolvedTests"
+        android:actionLayout="@layout/search_layout"
+        android:title="Search" />
+
+    <item
+        android:id="@+id/home_main"
+        android:onClick="home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/logout"
+        android:onClick="logOut"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:title="Log Out" />
+</menu>

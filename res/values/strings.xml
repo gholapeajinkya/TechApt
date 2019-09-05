@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TechApt</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="web_client_id">390424010248-1bv540agn9qms5j7nm2gp70m4mkrsahh.apps.googleusercontent.com</string>
+
+</resources>

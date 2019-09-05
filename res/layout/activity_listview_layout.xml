@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical"
+    tools:context=".listviewLayout">
+
+    <TextView
+        android:id="@+id/questiontextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Question"
+        android:textColor="?android:attr/colorForeground" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Op_A_radio"
+                android:clickable="false"
+                android:text="option A"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Op_B_radio"
+                android:layout_toRightOf="@id/Op_A_radio"
+                android:clickable="false"
+                android:text="option B"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Op_C_radio"
+                android:layout_below="@id/Op_A_radio"
+                android:clickable="false"
+                android:text="option C"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Op_D_radio"
+                android:layout_below="@id/Op_B_radio"
+                android:layout_toRightOf="@id/Op_C_radio"
+                android:clickable="false"
+                android:text="option D"/>
+        </RadioGroup>
+
+    <TextView
+        android:id="@+id/answertextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Answer: "
+        android:textColor="?android:attr/colorForeground" />
+</LinearLayout>
