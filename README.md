@@ -13,7 +13,15 @@ A step by step series of instruction that tell you how to get a development env 
 
 ## Running the tests
 
-<img width="300" height="500" align="left" title="input image" src="https://github.com/ajinkyagholape1998/TechApt/blob/master/Screenshots/1.jpg">
+<img width="200" height="350" align="left" title="input image" src="https://github.com/ajinkyagholape1998/TechApt/blob/master/Screenshots/1.jpg">
+<img width="200" height="350" align="left" title="input image" src="https://github.com/ajinkyagholape1998/TechApt/blob/master/Screenshots/2.jpg">
+<img width="200" height="350" align="left" title="input image" src="https://github.com/ajinkyagholape1998/TechApt/blob/master/Screenshots/3.jpg">
+<img width="200" height="350" title="input image" src="https://github.com/ajinkyagholape1998/TechApt/blob/master/Screenshots/4.jpg">
+
+<img width="200" height="350" align="left" title="input image" src="https://github.com/ajinkyagholape1998/TechApt/blob/master/Screenshots/5.jpg">
+<img width="200" height="350" align="left" title="input image" src="https://github.com/ajinkyagholape1998/TechApt/blob/master/Screenshots/7.jpg">
+<img width="200" height="350" align="left" title="input image" src="https://github.com/ajinkyagholape1998/TechApt/blob/master/Screenshots/9.jpg">
+<img width="200" height="350" title="input image" src="https://github.com/ajinkyagholape1998/TechApt/blob/master/Screenshots/10.jpg">
 
 
 
