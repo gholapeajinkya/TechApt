@@ -13,8 +13,8 @@ A step by step series of instruction that tell you how to get a development env 
 
 ## Running the tests
 
-<img align="left" width="400" height="300" title="input image" src="https://github.com/ajinkyagholape1998/Face-Recognition/blob/master/Face%20Recognition/input%20images/avg.jpg">
-<img width="400" height="300" title="input image" src="https://github.com/ajinkyagholape1998/Face-Recognition/blob/master/Face%20Recognition/output/2019-05-2910:58:58.jpg">
+<img width="300" height="500" align="left" title="input image" src="https://github.com/ajinkyagholape1998/TechApt/blob/master/Screenshots/1.jpg">
+
 
 
 ## Authors
