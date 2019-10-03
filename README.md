@@ -10,7 +10,16 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installing
 A step by step series of instruction that tell you how to get a development env running
 1. [Click here](https://developer.android.com/studio?gclid=Cj0KCQjw5MLrBRClARIsAPG0WGw3Dp3NljjKHh1u6CCbG5yI_ZzuNmhlwzo8hjbn6Gz-5pwtGLy18t8aAvMfEALw_wcB) to download **Android Studio**
-
+### dependencies
+```
+    implementation 'com.google.firebase:firebase-core:16.0.9'
+    implementation 'com.google.firebase:firebase-auth:16.1.0'
+    implementation 'com.google.firebase:firebase-database:16.1.0'
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    implementation 'com.google.android.gms:play-services-auth:16.0.0'
+    implementation 'com.google.firebase:firebase-inappmessaging-display:17.0.0'
+    implementation 'com.google.firebase:firebase-storage:16.1.0'
+```
 ## Running the tests
 
 <img width="200" height="350" align="left" title="input image" src="https://github.com/ajinkyagholape1998/TechApt/blob/master/Screenshots/1.jpg">
