@@ -22,15 +22,15 @@ A step by step series of instruction that tell you how to get a development env 
 ```
 ## Running the tests
 
-<img width="200" height="350" align="left" title="input image" src="https://github.com/ajinkyagholape1998/TechApt/blob/master/Screenshots/1.jpg">
-<img width="200" height="350" align="left" title="input image" src="https://github.com/ajinkyagholape1998/TechApt/blob/master/Screenshots/2.jpg">
-<img width="200" height="350" align="left" title="input image" src="https://github.com/ajinkyagholape1998/TechApt/blob/master/Screenshots/3.jpg">
-<img width="200" height="350" title="input image" src="https://github.com/ajinkyagholape1998/TechApt/blob/master/Screenshots/4.jpg">
+<img width="200" height="350" align="left" title="content_main" src="https://github.com/ajinkyagholape1998/TechApt/blob/master/Screenshots/1.jpg">
+<img width="200" height="350" align="left" title="activity_main" src="https://github.com/ajinkyagholape1998/TechApt/blob/master/Screenshots/2.jpg">
+<img width="200" height="350" align="left" title="activity_profile" src="https://github.com/ajinkyagholape1998/TechApt/blob/master/Screenshots/3.jpg">
+<img width="200" height="350" title="activity_solved_tests" src="https://github.com/ajinkyagholape1998/TechApt/blob/master/Screenshots/4.jpg">
 
-<img width="200" height="350" align="left" title="input image" src="https://github.com/ajinkyagholape1998/TechApt/blob/master/Screenshots/5.jpg">
-<img width="200" height="350" align="left" title="input image" src="https://github.com/ajinkyagholape1998/TechApt/blob/master/Screenshots/7.jpg">
-<img width="200" height="350" align="left" title="input image" src="https://github.com/ajinkyagholape1998/TechApt/blob/master/Screenshots/9.jpg">
-<img width="200" height="350" title="input image" src="https://github.com/ajinkyagholape1998/TechApt/blob/master/Screenshots/10.jpg">
+<img width="200" height="350" align="left" title="activity_login" src="https://github.com/ajinkyagholape1998/TechApt/blob/master/Screenshots/5.jpg">
+<img width="200" height="350" align="left" title="activity_registration" src="https://github.com/ajinkyagholape1998/TechApt/blob/master/Screenshots/7.jpg">
+<img width="200" height="350" align="left" title="activity_clanguage_questions" src="https://github.com/ajinkyagholape1998/TechApt/blob/master/Screenshots/9.jpg">
+<img width="200" height="350" title="activity_result" src="https://github.com/ajinkyagholape1998/TechApt/blob/master/Screenshots/10.jpg">
 
 
 
