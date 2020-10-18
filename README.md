@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 * xml
 
 ### Installing
-A step by step series of instruction that tell you how to get a development env running
+A step by step series of instruction that tell you how to get a development environment running
 1. [Click here](https://developer.android.com/studio?gclid=Cj0KCQjw5MLrBRClARIsAPG0WGw3Dp3NljjKHh1u6CCbG5yI_ZzuNmhlwzo8hjbn6Gz-5pwtGLy18t8aAvMfEALw_wcB) to download **Android Studio**
 ### dependencies
 ```
