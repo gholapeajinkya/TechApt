@@ -1,4 +1,13 @@
 # TechApt
+<p>
+<img src="https://img.shields.io/github/forks/ajinkyagholape1998/Face-Recognition.svg"/>
+  <img src="https://img.shields.io/github/stars/ajinkyagholape1998/Face-Recognition.svg"/>
+<img src="https://img.shields.io/github/watchers/ajinkyagholape1998/Face-Recognition.svg"/>
+</p>
+<p>
+  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"/>
+</p>
 Application For Technical Aptitude Prepararion for Android. 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -37,3 +46,5 @@ A step by step series of instruction that tell you how to get a development envi
 ## Authors
 * **Ajinkya Gholape** 
 
+[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>](https://www.linkedin.com/feed/)
+[<img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white"/>](https://dev.to/ajinkyagholape1998)
